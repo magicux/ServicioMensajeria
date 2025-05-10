@@ -1,0 +1,149 @@
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+  color: #444749;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Menú lateral de contactos */
+.contactos {
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+}
+
+/* Contacto principal (María) */
+.contacto-principal {
+  flex: 0 0 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.usuario-barra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.foto-usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.informacion-usuario {
+  flex: 1;
+  margin-left: 1rem;  
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre-usuario {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.estado-usuario {
+  font-size: 0.8rem;
+  color: #828485;
+  margin: 0;
+}
+
+/* Botón Nuevo Chat */
+.nuevo-chat {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn-nuevo-chat {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #A491D2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Lista de contactos */
+.lista-contactos {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.contacto p {
+  margin: 0;
+}
+
+/* Foto y datos de contacto */
+.informacion-contacto {
+  flex: 1;
+  margin-left: 1rem;  
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre {
+  font-weight: bold;
+}
+
+.estado-contacto {
+  font-size: 0.8rem;
+  color: #828485;
+}
+
+/* Menu Principal */
+.contenido-principal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #E8EBE4;
+}
+
+.logo {
+  max-width: 250px;
+  margin-bottom: 1.5rem;
+}
+.iconos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #444749;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #444749;
+}
